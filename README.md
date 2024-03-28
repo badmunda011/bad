@@ -18,7 +18,7 @@
 
 ## Deploy To Heroku ⚠️ Deploy On EU Server
 
-<a href="https://heroku.com/deploy?template=https://github.com/Shivasengar12/Pompom"><img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy"></a>
+<a href="https://heroku.com/deploy?template=https://github.com/badmunda011/Pompom"><img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy"></a>
 
 
 ## Configs 

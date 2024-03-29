@@ -84,7 +84,7 @@ def download_song(_, message):
 
 
 @Client.on_message(filters.private & filters.command("ig"))
-async def download_instareels(c: app, m: Message):
+async def download_instareels(c: Client, m: Message):
     try:
         reel_ = m.command[1]
     except IndexError:

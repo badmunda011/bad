@@ -17,7 +17,7 @@ from pyrogram import filters, Client
 
 # ------------------------------------------------------------------------------- #
 
-@Client.on_message(filters.private & filters.command("song"))
+@Client.on_message(filters.private & filters.command("mp3"))
 def download_song(_, message):
     query = " ".join(message.command[1:])  
     print(query)

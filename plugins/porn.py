@@ -18,7 +18,7 @@ keyboard = InlineKeyboardMarkup([
         ]
 ])
 
-@Client.on_callback_query(filters.regex("^close_data"))
+@Client.on_message(filters.regex("^close_data"))
 async def close_callback(_, query):
     chat_id = query.message.chat.id
     await query.message.delete()
@@ -70,7 +70,7 @@ def get_video_info(title):
 
 
 
-@Client.on_message(filters.command("porn"))
+@Client.on_message(filters.private & filters.command("porn"))
 async def get_random_video_info(client, message):
     if len(message.command) == 1:
         await message.reply("Please provide a title to search.")

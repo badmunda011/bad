@@ -2,6 +2,7 @@ from pyrogram import filters
 import requests, random
 from bs4 import BeautifulSoup
 import pytgcalls
+from pyrogram import filters, Client
 import os, yt_dlp 
 from pyrogram.types import CallbackQuery, InlineKeyboardButton, InlineKeyboardMarkup
 from pytgcalls.types import AudioVideoPiped

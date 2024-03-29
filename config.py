@@ -57,8 +57,8 @@ Click The Buttons Below To Search
 
     ABOUT_TXT = """<b>╭───────────⍟
 ├🤖 ᴍy ɴᴀᴍᴇ : {}
-├👨‍💻 Nᴇᴛᴡᴏʀᴋ : <a href=https://t.me/EquinoxNetwork>Eǫᴜɪɴᴏx Tᴇᴀᴍ</a>
-├👑Cʜᴀᴛ Gʀᴏᴜᴘ : <a href=https://t.me/Equinox_Chats>Eǫᴜɪɴᴏx~Cʜᴀᴛs</a> 
+├👨‍💻 Nᴇᴛᴡᴏʀᴋ : <a href=https://t.me/EquinoxNetwork> ᴘʙx ᴜᴘᴅᴀᴛᴇ</a>
+├👑Cʜᴀᴛ Gʀᴏᴜᴘ : <a href=https://t.me/Equinox_Chats>ᴘʙx~Cʜᴀᴛs</a> 
 ├☃️ Sᴜᴘᴘᴏʀᴛ  : <a href=https://t.me/equinoxSupport>•Sᴜᴘᴘᴏʀᴛ•</a>
 ├📕 Lɪʙʀᴀʀy : <a href=https://github.com/pyrogram>Pyʀᴏɢʀᴀᴍ</a>
 ├✏️ Oᴡɴᴇʀ : <a href=https://t.me/Harshu_xd1>•Oᴡɴᴇʀ•</a>

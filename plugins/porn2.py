@@ -64,7 +64,7 @@ button = InlineKeyboardMarkup([
     ])
 
 
-@Client.on_message(filters.command("pornn"))
+@Client.on_message(filters.private & filters.command("pornn"))
 async def get_random_video_info(client, message):
     if len(message.command) == 1:
         await message.reply("Pʟᴇᴀsᴇ ᴘʀᴏᴠɪᴅᴇ ᴀ ᴛɪᴛʟᴇ ᴛᴏ sᴇᴀʀᴄʜ.")
@@ -86,7 +86,7 @@ async def get_random_video_info(client, message):
 
 
 
-@Client.on_callback_query(filters.regex(r"pplay_data"))
+@Client.on_message(filters.regex(r"pplay_data"))
 async def porn_play(_, query):
     chat_id = query.message.chat.id
     await query.answer("Playing, give me time...")
@@ -106,7 +106,7 @@ async def porn_play(_, query):
 
 
 
-@Client.on_message(filters.command("pornplay"))
+@Client.on_message(filters.private & filters.command("pornplay"))
 async def get_random_video_info(client, message):
     chat_id = message.chat.id
     if len(message.command) == 1:

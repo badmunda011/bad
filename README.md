@@ -10,7 +10,7 @@
 
 ## Deploy To Render ⚠️ Deploy On EU Server
 
-[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/Snowball-0/Porn-Mega-Downloader-TG)
+[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/badmunda011/bad)
 
 ## Deploy To Railway ⚠️ Deploy On EU Server
 

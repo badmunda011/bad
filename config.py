@@ -4,25 +4,25 @@ id_pattern = re.compile(r'^.\d+$')
 
 class Config(object):
     # pyro client config
-    API_ID    = os.environ.get("API_ID", "")  # ⚠️ Required
-    API_HASH  = os.environ.get("API_HASH", "") # ⚠️ Required
-    BOT_TOKEN = os.environ.get("BOT_TOKEN", "") # ⚠️ Required
-    BOT_USERNAME = os.environ.get("BOT_USERNAME", "") # ⚠️ Required
+    API_ID    = os.environ.get("API_ID", "27383453")  # ⚠️ Required
+    API_HASH  = os.environ.get("API_HASH", "4c246fb0c649477cc2e79b6a178ddfaa") # ⚠️ Required
+    BOT_TOKEN = os.environ.get("BOT_TOKEN", "7039928048:AAEKybKBPGNlC9emTLiH_hvDchKommr9KGI") # ⚠️ Required
+    BOT_USERNAME = os.environ.get("BOT_USERNAME", "Porn13_Bot") # ⚠️ Required
    
     # database config
-    DB_URL  = os.environ.get("DB_URL","")  # ⚠️ Required
+    DB_URL  = os.environ.get("DB_URL","mongodb+srv://BADMUNDA:BADMYDAD@badhacker.i5nw9na.mongodb.net/")  # ⚠️ Required
  
     # other configs
     DOWNLOAD_LOCATION = "./DOWNLOADS"
     TG_MAX_SIZE = 2040108421
     BOT_UPTIME  = time.time()
-    START_PIC   = os.environ.get("START_PIC", "")
+    START_PIC   = os.environ.get("START_PIC", "https://telegra.ph/file/c3e86bd717632f9441ea9.jpg")
     ADMIN       = [int(admin) if id_pattern.search(admin) else admin for admin in os.environ.get('ADMIN', '').split()] # ⚠️ Required
     FORCE_SUB_TEXT = os.environ.get('FORCE_SUB_TEXT', "**Yᴏᴜ ᴀʀᴇ ɴᴏᴛ ɪɴ ᴏᴜʀ Bᴀᴄᴋ-ᴜᴘ ᴄʜᴀɴɴᴇʟ ɢɪᴠᴇɴ ʙᴇʟᴏᴡ sᴏ ʏᴏᴜ ᴅᴏɴ'ᴛ ɢᴇᴛ ᴛʜᴇ ғɪʟᴇ...\n\nIғ ʏᴏᴜ ᴡᴀɴᴛ ᴛʜᴇ ғɪʟᴇ, ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ '❆ Jᴏɪɴ Oᴜʀ Bᴀᴄᴋ-Uᴘ Cʜᴀɴɴᴇʟ ❆' ʙᴜᴛᴛᴏɴ ʙᴇʟᴏᴡ ᴀɴᴅ ᴊᴏɪɴ ᴏᴜʀ ʙᴀᴄᴋ-ᴜᴘ ᴄʜᴀɴɴᴇʟ, ᴛʜᴇɴ ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ '↻ Tʀʏ Aɢᴀɪɴ' ʙᴜᴛᴛᴏɴ ʙᴇʟᴏᴡ...\n\nTʜᴇɴ ʏᴏᴜ ᴡɪʟʟ ɢᴇᴛ ᴛʜᴇ ғɪʟᴇs...**")
     FORCE_SUB = os.environ.get('FORCE_SUB', '') # ⚠️ Required
     AUTH_CHANNEL = int(FORCE_SUB) if FORCE_SUB and id_pattern.search(
     FORCE_SUB) else None
-    LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "")) # ⚠️ Required
+    LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1002093247039")) # ⚠️ Required
 
     
     # Mega User Account ⚠️ Only Set When you have Pro or Enterprise Mega Account

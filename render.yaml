@@ -4,7 +4,7 @@ services:
     name: ProMegaDownloader
     env: python
     buildCommand: pip install -r requirements.txt
-    startCommand: python bot.py
+    startCommand: python3 bot.py
     repo: https://github.com/badmunda011/bad
     branch: main
     autoDeploy: false
